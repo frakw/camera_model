@@ -11,6 +11,7 @@
 #include <opencv2/core/core.hpp>
 #include <utility>
 #include <vector>
+#include <iostream>
 
 namespace aslam
 {
