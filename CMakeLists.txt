@@ -5,6 +5,8 @@ set(CMAKE_BUILD_TYPE "Release")
 set(CMAKE_CXX_FLAGS "-std=c++11 -march=native")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall -fPIC -fopenmp")
 
+set (CMAKE_CXX_STANDARD 11)
+
 find_package(catkin REQUIRED COMPONENTS
     roscpp
     std_msgs
